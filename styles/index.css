@@ -1,0 +1,23 @@
+#inputContainer
+    {  
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+        width: 25%;
+    }
+h1
+    {
+        text-align: center;
+    }
+#container
+    {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 10px;
+        text-align: center;
+    }
+#container >div
+    {
+        border: 1px solid black;
+    }
